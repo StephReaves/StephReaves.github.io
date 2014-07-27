@@ -3,7 +3,7 @@
 
 body {
   background-color: rgb(241, 241, 241);
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 300;
   line-height: 1.2em;
   margin: 0px auto;
@@ -28,7 +28,7 @@ a:hover {
 h1 {
   font-size: 2.2em;
   float: left;
-  line-height: 75px;
+  line-height: 4.6875em;
  /* font-family: 'Open Sans Condensed', sans-serif;*/
 }
 
@@ -37,7 +37,7 @@ h2 {
   color: #FFF;
   font-size: 2.4em;
   font-weight: 400;
-  line-height: 80px;
+  line-height: 5.0em;
   margin: 0 0 0.5em 0;
   text-align: center;
 }
@@ -62,44 +62,44 @@ h4 {
 }
 .nav li a {
   color: #fff;
-  margin: 0 10px;
-  padding: 5px 10px;
+  margin: 0 .625em;
+  padding: .3125em .625em;
   text-decoration: none;
 }
 
 .jump {
   color: #565656;
-  font-size: 70px;
-  line-height: 80px;
+  font-size: 4.375em;
+  line-height: 5.0em;
   position: absolute;
   text-decoration: none;
   top: 0;
 }
 .jump.up {
-  left: 15px;
+  left: .9375em;
 }
 .jump.down {
-  right: 15px;
+  right: .9375em;
 }
 
 
 /* Header */
 header {
   background-color: #009D92;
-  padding: 10px;
+  padding: .625em;
 }
 header h1 {
   color: #FFEECC;
   background: url('../images/icons/it.png') no-repeat 0 50%;
-  padding-left: 40px;
+  padding-left: 2.5em;
 }
 header .nav {
   float: right;
   font-size: 1.2em;
-  margin-left: 20px;
+  margin-left: 1.25em;
 }
 header .nav li {
-  line-height: 75px;
+  line-height: 4.6875em;
 }
 
 header:after {
@@ -137,6 +137,7 @@ header:after {
   margin: 1%;
   padding: 2%;
   width: 27.33%;
+ /* width: 100%;*/
 }
 
 #famous div.break {
@@ -156,19 +157,19 @@ header:after {
 }
 
 #organizations ul {
-  margin: 50px;
+  margin: 3.125em;
   position: relative;
 }
 #organizations ul li {
   font-size: 1.2em;
   line-height: 1.3em;
   margin-bottom: 1em;
-  padding-left: 5px;
+  padding-left: .3125em;
   max-width: 50%;
 }
 #organizations img {
   position: absolute;
-  right: 20px;
+  right: 1.25em;
   top: 0;
   display: none;
   max-width: 40%;
@@ -179,13 +180,13 @@ header:after {
 
 /* Fun Facts */
 #facts ul {
-  margin: 50px;
+  margin: 3.125em;
 }
 #facts ul li {
   font-size: 1.2em;
   line-height: 1.3em;
   margin-bottom: 1em;
-  padding-left: 5px;
+  padding-left: .3125em;
 }
 
 
@@ -198,7 +199,7 @@ header:after {
 #footer .nav {
   float: left;
   font-size: 1.1em;
-  margin: 10px;
+  margin: .625em;
 }
 
 #footer:after {
@@ -207,3 +208,30 @@ header:after {
   display: table;
   clear: both;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 200px) {
+
+.nav {
+  width: 100%;
+}
+
+#famous div.woman {
+  width: 100%;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+.nav {
+  width: 100%;
+}
+
+#famous div.woman {
+  width: 60%;
+}
+
+}
+
