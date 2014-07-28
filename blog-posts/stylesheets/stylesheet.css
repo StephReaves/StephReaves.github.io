@@ -1,5 +1,5 @@
 body {
-	background-color: #FAEAB9;
+	background-color: #FC0384;
 }
 
 header, footer {
@@ -8,6 +8,7 @@ header, footer {
 	text-align: center;
 	background-color: #D757F6;
 	border-radius: .750em;
+	box-shadow: .5em;
 	margin: 1em;
 	margin-right: auto;
 	margin-left: auto;
