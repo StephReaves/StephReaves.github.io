@@ -16,10 +16,10 @@ header, footer {
 }
 
 footer {
-	position: absolute;
 	clear: both;
-	top: 40em;
-	left: 5em;
+	position: relative;
+	top: 1em;	
+
 }
 
 
@@ -32,6 +32,7 @@ article {
 	border-radius: .750em;
 	color: #F6A2BF;
 	margin-left: 4.33em;
+	padding: .675em;
 }
 
 nav {
