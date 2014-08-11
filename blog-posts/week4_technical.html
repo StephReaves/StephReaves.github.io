@@ -17,29 +17,25 @@
 
 	<div id="main">
 	<article>
-		<p><b><u><h3>Pros of Javascript:</b></u></h3> </p>
-		<p>
-			After reading a few articles on the web, most sources point to the big benefits of Javascript being the fact that it's the language of broswers (does it get any better than this), does have server side support (not only for the front-end developers), its lightening fast speed, and wealth of libraries. To be honest, the last two bullet points don't mean much to me at this stage. I can understand how speed and robust libraries is of value as they aren't constraints in the work flow. However, I've not experience the benefit firsthand so it's more of a benefit to be seen. Quora had quite a few threads on Javascript and here is the link to the one I found most helpful: <a href="http://www.quora.com/Computer-Programming/Why-is-JavaScript-so-popular" target="_blank">Quora on Popularity</a> of Javascript. </p>
+		<p><b><u><h3>What's the deal with Ruby Loops?</b></u></h3> </p>
+		<p>Well I've been looping around in Ruby for a bit now and to be honest it's getting a lil loopy... Okay, sorry for that one, but I had to put some bad humor in the blog. Anyway, there are three main loops in Ruby.</p>
 			
-		<p>	In summary the pros of Javascript are: 
+		<p>	These loops are: 
 		<ul>
-			<li>Language of the browsers</li>
-			<li>Does have server side side support</li>
-			<li>Speed</li>
-			<li>Libraries</li>
+			<li>While</li>
+			<li>Until</li>
+			<li>For</li>
 		</ul>
+		I'll go into each in a bit more detail below. At a high level, they all allow you to run a specific piece of code for an indicated situation. The loop should keep track of itself in terms of a count if one is utilized, a statement that ends the loop (this is key so you don't melt your computer), and the output that you wish returned. 
 		</p>
 
-		<p><b><u><h3>Cons of Javascript:</b></u></h3> </p>
-		<p>
-			There are a few things that immediately pop into my mind when I think of cons of Javascript. These cons are the syntax of the language seems a bit weak. It's almost as if rules are not really rules, but more suggestions in the language which can be confusing for a n00b. From research, it seems that different browsers will render Javascript differently, which creates headaches as there isn't one consistent standard. Another commonly cited con is a security issues although I haven't really bumped into this issue, but I do realize how this could be a big problem. Here is a link to a Quora article that helped further my understanding: <a href="http://www.quora.com/JavaScript-programming-language/What-are-some-limitations-of-JavaScript" target="_blank">Quora on limitations</a> of Javascript. </p>
-
-		<p> In summary the cons of Javascript are:
-		<ul>
-			<li>Poorly structured syntax - Can I even claim that with my coding knowledge?</li>
-			<li>Inconsistent rendering across browsers</li>
-			<li>Weak security</li>
-		</ul>
+		<p><b><h4>While:</b></h4> While will execute a block of code in Ruby until the condition is not true at which point the code at the end will execute. This is the most straightforward of all of the loops. Honestly, while is my go to loop in Ruby. In terms of the syntax, it's fairly straight forward. You can check out the syntax for While and the other loop types <a href="http://www.codecademy.com/glossary/ruby/loops" target =_blank>here</a>
+		
+		</p>
+		<p><b><h4>Until:</b></h4> Unless will excute a block of code so long as the condition is false. Once it is true, then the code at the end will execute. To be honest, I rarely use unless as I find it more taxing to think on the negative side of a statement. I realize that until helps with readability of code when it makes more sense to write a negative statement. It's definitely something that I'll have to work on over the course of DBC. 
+			
+		</p>
+		<p><b><h4>For:</b></h4> For is the "workhorse" of looping in Javascript. However, I've found that in Ruby, it's rare that you want to use the For loop. Often times, it introduces additional code that is not helpful in the form of a needless itterator and if you need to itterate, then it's best to use .each in most situations... So moving forward, I'm retiring For in Ruby. It's going to be While or Until for me. 
 		</p>
 
 	</article>
