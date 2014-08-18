@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="stylesheets/stylesheet.css">
+	<title>Steph's DBC Blog</title>
+</head>
+
+
+
+<body>
+	<header> 
+		<h1>Steph's DBC Blog</h1>
+		<h3>Week 5 Technical</h3>
+
+	</header>
+
+	<div id="main">
+	<article>
+		<p><b><u><h3>Classes and more classes</b></u></h3> Classes are a big concept in the sense that they give you a lot of control and scalability in your work. Everything in Ruby is an object and classes are not an exception. I've started thinking of classes as categories. So for example, you might want to create an Dog class. Each dog can have specfic characteristics such as: breed, name, weight, and gender. Within the class there are instance variables, class variables, and local variables. As you form your class you will want to start it (initialize it) with instance variables. These instance variables contant an @ in front of the variable name. So if you wanted to have all of the charactersitics of a dog discussed earlier be variables then you would include the following: @breed, @name, @weight, @gender. The @ sign in front of the variable name notes that these are instance variables.</p>
+
+		<p>If the variables of name, weight, and gender, were included in a specific method, then these variables would be local variables and only accessible to the specific method in which it is contained. As you can imagine when you are writing a class, it is preferable to have some variables that can traverse across all methods within the class.</p>
+
+		<p>The final variable type is the class variable. The class variable is accessible to all members of a class. The scope of the class variable is wider than the instance variable, which has a wider scope than the local variable. The class variable is signified by @@. So if we follow the Dog example we can create a class variable called number_of_eyes and this would be coded as @@number_of_eyes.</p>
+
+		<p>One final thought, is that classes can have parents and children classes. It's kind of like taxonomy. If I wanted to write software for an pet store, I could create a superclass of Animal of which Dog would be a subclass. Dog would inheirit all behaviors (methods) of its parent class.</p>
+	
+	</article>
+
+	<nav> 
+		<ul>
+			<h1>Blog Posts</h1>
+			<li><a href="http://stephreaves.github.io/blog-posts/week1_cultural.html">Cultural Blog - Week 1</a></li>
+			<li><a href="http://stephreaves.github.io/blog-posts/week1_technical.html">Technical Blog - Week 1</a></li>
+			<li><a href="http://stephreaves.github.io/blog-posts/week2_technical.html">Technical Blog - Week 2</a></li>
+			<li><a href="http://stephreaves.github.io/blog-posts/week3_cultural.html">Cultural Blog - Week 3</a></li>
+			<li><a href="http://stephreaves.github.io/blog-posts/week3_technical.html">Technical Blog - Week 3</a></li>
+			<li><a href="http://stephreaves.github.io/blog-posts/week4_cultural.html">Cultural Blog - Week 4</a></li>
+			<li><a href="http://stephreaves.github.io/blog-posts/week4_technical.html">Technical Blog - Week 4</a></li>
+			<li><a href="http://stephreaves.github.io/blog-posts/week5_cultural.html">Cultural Blog - Week 5</a></li>
+
+			<h1>Projects</h1>
+			<li>Week 1</li>
+		</ul>
+	</nav>
+	
+	</div>
+
+	<footer> 
+		<p> Created by Steph Reaves 2014 </p>
+		<li><a href="mailto:StephanieReaves@gmail.com">Contact Info</a></li>
+	</footer>
+</body>
