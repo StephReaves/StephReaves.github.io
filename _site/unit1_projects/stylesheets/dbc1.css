@@ -1,0 +1,24 @@
+body {
+	background-color: #CC0099;
+}
+
+h1 {
+	color: purple;
+	margin: 0px;
+	font-size: 80px;
+}
+
+#Coding {
+	color: blue;
+	font-size: 40px;
+}
+
+.Numbers {
+	color: pink;
+}
+
+
+.Bucket {
+	color: green;
+}
+

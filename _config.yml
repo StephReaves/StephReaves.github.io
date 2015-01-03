@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Site Title
+title:  Be brave. Take risks. - Paulo Coelho
 locale: en_US
-description: Describe your website here.
+description: Adventure, learning, tech startups, code, travel, and poker. Standard NYC blog.
 logo: site-logo.png
 search: true
 url: 
@@ -32,15 +32,15 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Steph Reaves
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: Stephanie.Reaves@gmail.com
   disqus-shortname:
-  twitter: #username
-  facebook: #username
-  github: #username
+  twitter: StephReaves
+  facebook: sreaves2
+  github: StephReaves
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: StephReaves
   instagram: #username
   flickr: #username
   tumblr: #username
