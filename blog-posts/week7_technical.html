@@ -1,21 +1,8 @@
-<<<<<<< HEAD
----
-layout: page
-title: Latest Posts
-excerpt: "A simple and clean responsive Jekyll theme for words and photos."
----
-
-<ul class="post-list">
-{% for post in site.posts limit:10 %} 
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
-{% endfor %}
-</ul>
-=======
 <!doctype html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="blog-posts/stylesheets/stylesheet.css">
+	<link rel="stylesheet" href="stylesheets/stylesheet.css">
 	<title>Steph's DBC Blog</title>
 </head>
 
@@ -24,16 +11,22 @@ excerpt: "A simple and clean responsive Jekyll theme for words and photos."
 <body>
 	<header> 
 		<h1>Steph's DBC Blog</h1>
-		<h3></h3>
+		<h3>Week 7 Technical</h3>
 
 	</header>
 
 	<div id="main">
 	<article>
-		<h1>Let the DBC adventure begin!</h1>
-		<p>Follow me on my journey from finance to programming. Hopefully, over time this blog will look better and be more useful. We shall see. If nothing else, I'll post awesome content that helps me fill out my divs. *NOTE* Plan to update the design and layout on 08/11/14!!! </p>
+		<p><b><u><h3>SQL Injection & Hacking</b></u></h3>So SQL injection is a process by which malicious users can inject SQL commands into a SQL statement via web page input. Ultimately, this can compromise the security of the web application. However, security can be added to a website for protection through SQL paramaters. These parameters are added to the SQL Query at runtime.</p>
 
-		<iframe width="560" height="315" src="//www.youtube.com/embed/l-gQLqv9f4o" frameborder="0" allowfullscreen></iframe>
+		<p>The SQL Inject issue is well documented on both the issue and the solution. However, it's noted that most sites experience a SQL injection attack 4 times per month. So it's definitely somehting to be aware of as we use SQL for databasing in our web applications. This is definitely the downside of creating something that contains valuable information and data.</p>
+
+
+		<p>Sources:<a href="http://en.wikipedia.org/wiki/SQL_injection">Wikipedia</a>
+		<a href="http://www.w3schools.com/sql/sql_injection.asp">W3School</a>
+		<a href="http://xkcd.com/327/">SQL Injection Cartoon</a>
+		</p>
+	
 	</article>
 
 	<nav> 
@@ -51,12 +44,9 @@ excerpt: "A simple and clean responsive Jekyll theme for words and photos."
 			<li><a href="http://stephreaves.github.io/blog-posts/week6_cultural.html">Cultural Blog - Week 6</a></li>
 			<li><a href="http://stephreaves.github.io/blog-posts/week6_technical.html">Technical Blog - Week 6</a></li>
 			<li><a href="http://stephreaves.github.io/blog-posts/week7_cultural.html">Cultural Blog - Week 7</a></li>
-			<li><a href="http://stephreaves.github.io/blog-posts/week7_technical.html">Technical Blog - Week 7</a></li>
-			<li><a href="http://stephreaves.github.io/blog-posts/week8_cultural.html">Cultural Blog - Week 8</a></li>
-			<li><a href="http://stephreaves.github.io/blog-posts/week8_technical.html">Technical Blog - Week 8</a></li>
 
 			<h1>Projects</h1>
-			<li>Coming Soon!</li>
+			<li>Week 1</li>
 		</ul>
 	</nav>
 	
@@ -67,4 +57,3 @@ excerpt: "A simple and clean responsive Jekyll theme for words and photos."
 		<li><a href="mailto:StephanieReaves@gmail.com">Contact Info</a></li>
 	</footer>
 </body>
->>>>>>> f627133d096a71f3011ec8ccf2e4bd85fe4a13e7
