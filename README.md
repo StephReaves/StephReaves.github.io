@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # So Simple Theme
 
 Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes/) -- by designer slash illustrator [Michael Rose](http://mademistakes.com).
@@ -29,7 +28,4 @@ To learn how to install and use this theme check out the [Setup Guide](http://mm
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmistakes/so-simple-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-=======
-StephReaves.github.io
-=====================
->>>>>>> f627133d096a71f3011ec8ccf2e4bd85fe4a13e7
+
