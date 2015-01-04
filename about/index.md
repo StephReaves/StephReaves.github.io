@@ -1,26 +1,16 @@
 ---
 layout: page
-title: About the Jekyll Theme
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
+title: About Me
+excerpt: "Full stack Web Developer by way of Silicon Alley and Wall St.."
 modified: 2014-08-08T19:44:38.564948-04:00
-image:
-  feature: so-simple-sample-image-4.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+I'm an ex-startup leader turned software engineer. I graduated from Wharton, with a MBA in 2011, and worked for three years on New York's Silicon Alley. Currently, I'm a coach for incoming students at <a href="http://devbootcamp.com/" target="_blank">Dev Bootcamp</a> and I'm seeking full-time employment as a front end web developer. 
 
-## So Simple Theme is all about:
+In short, I love learning - I'm a geekette. I'm passionate about being my "best self" in all aspects of my personal and professional life. So whether we're talking <a href="http://en.wikipedia.org/wiki/Numismatics" target="_blank">Numismatics</a>, poker, or travel I'm engaged and opinionated. So shoot me an e-mail any time at <a href="mailto: stephanie.reaves@gmail.com" target="_blanl=k"> Stephanie.Reaves [at] gmail [dot] com </a>.
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
+## My Projects:
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
-
-[^1]: Example: *domain.com/category-name/post-title*
+* <a href="https://memoryfinder.herokuapp.com/" target="_blank">Dreams</a> 
+* <a href="http://www.rezolveapp.com/" target="_blank">Rezolve</a> 
+* <a href="https://github.com/ospreys-2014/LiveHub" target="_blank">LiveHub</a> 
