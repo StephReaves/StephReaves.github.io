@@ -1,6 +1,15 @@
 [
 	
 		{
+		  "title"      : "The Jekyll Transition",
+		  "category"   : "",
+      "tags"       : "",
+		  "url"        : "/blog/jekyll-transition/",
+		  "date"       : "2015-01-08 22:39:55 -0500",
+		  "shortdate"  : "January 08, 2015"
+		} ,
+	
+		{
 		  "title"      : "Hello World",
 		  "category"   : "",
       "tags"       : "",
