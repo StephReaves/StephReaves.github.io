@@ -158,7 +158,48 @@
         <h2 id="jekyll-is-awesome">Jekyll is Awesome</h2>
 
 <p>So Jekyll is a “thing”. I don’t know what took me so long to transition over from my old blog.
-However, it’s a lifesaver in terms of increasing efficiency around creating a blog post, writing a blog post, posting, and updating posts. Everything is streamlined…</p>
+However, it’s a lifesaver in terms of increasing efficiency around creating a blog post, writing a blog post, posting, and updating posts. Everything is streamlined… One I was over the initial confusion of how to set everything up, it’s been smooth sailing. Basically, GitHub makes posting static contant seamless with GitHub pages. Jekyll, an open source project static site generator, takes this to a new level by giving you all the tools needed to blogs, personal, projects, or organizational sites. </p>
+
+<h2 id="rundown-of-some-cool-things-that-are-easy-with-jekyll">Rundown of some cool things that are easy with Jekyll.</h2>
+
+<ul>
+  <li>Launching a server to test your blog</li>
+  <li>Add a new post is as simple as</li>
+  <li>Jekyll also offers support for code snippets</li>
+  <li>Jekyll is really well documented</li>
+</ul>
+
+<h3 id="build--launch">Build &amp; Launch!</h3>
+
+<p>A lot of times it can be confusing to test your site. Not with Jekyll. The below is all you need to run in terminal to get up and running. </p>
+
+<div class="highlight"> 
+  <pre>
+    <code class="language-text" data-lang="text"> 
+    bundle exec jekyll build <br />
+    bundle exec jekyll serve
+    </code> 
+  </pre>
+</div>
+
+<h3 id="new-posts-lightening-fast">New Posts Lightening Fast</h3>
+
+<p>Find any post in your <code>_posts</code> directory - edit your post and re-build (or run with the <code>-w</code> switch) to see your changes!
+To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention: YYYY-MM-DD-name-of-post.ext. Done! </p>
+
+<h3 id="code-snippets-anyone">Code Snippets Anyone?</h3>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">&quot;Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">&#39;Steph&#39;</span><span class="p">)</span>
+<span class="c1">#=&gt; prints &#39;Hi, Steph&#39; to STDOUT.</span></code></pre></div>
+
+<h3 id="questions-they-have-answers">Questions? They Have Answers</h3>
+
+<p>Take a look at the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. You can file all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>.</p>
+
+<p>Have fun! </p>
 
         
       </div><!-- /.entry-content -->
