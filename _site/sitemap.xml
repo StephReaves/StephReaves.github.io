@@ -1,48 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/blog/hello-world/</loc>
-    <lastmod>2014-08-08T15:39:55-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>/articles/sample-post/</loc>
-    <lastmod>2011-03-10T00:00:00-05:00</lastmod>
+    <loc>/blog/jekyll-transition/</loc>
+    <lastmod>2015-01-08T22:39:55-05:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>/</loc>
+<<<<<<< HEAD
     <lastmod>2015-01-12T10:53:03-05:00</lastmod>
+=======
+    <lastmod>2015-01-11T21:05:39-05:00</lastmod>
+>>>>>>> 0299e82a0f3def571f0fdbccfda1d7653f72cb67
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>/tags/</loc>
+<<<<<<< HEAD
     <lastmod>2015-01-12T10:53:03-05:00</lastmod>
+=======
+    <lastmod>2015-01-11T21:05:39-05:00</lastmod>
+>>>>>>> 0299e82a0f3def571f0fdbccfda1d7653f72cb67
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/articles/</loc>
+<<<<<<< HEAD
     <lastmod>2015-01-12T10:53:03-05:00</lastmod>
+=======
+    <lastmod>2015-01-11T21:05:39-05:00</lastmod>
+>>>>>>> 0299e82a0f3def571f0fdbccfda1d7653f72cb67
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/theme-setup/</loc>
+<<<<<<< HEAD
     <lastmod>2015-01-12T10:53:03-05:00</lastmod>
+=======
+    <lastmod>2015-01-11T21:05:39-05:00</lastmod>
+>>>>>>> 0299e82a0f3def571f0fdbccfda1d7653f72cb67
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/blog/</loc>
+<<<<<<< HEAD
     <lastmod>2015-01-12T10:53:03-05:00</lastmod>
+=======
+    <lastmod>2015-01-11T21:05:39-05:00</lastmod>
+>>>>>>> 0299e82a0f3def571f0fdbccfda1d7653f72cb67
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/about/</loc>
+<<<<<<< HEAD
     <lastmod>2015-01-12T10:53:03-05:00</lastmod>
+=======
+    <lastmod>2015-01-11T21:05:39-05:00</lastmod>
+>>>>>>> 0299e82a0f3def571f0fdbccfda1d7653f72cb67
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

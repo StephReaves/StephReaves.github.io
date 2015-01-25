@@ -1,21 +1,12 @@
 [
 	
 		{
-		  "title"      : "Hello World",
+		  "title"      : "The Jekyll Transition",
 		  "category"   : "",
       "tags"       : "",
-		  "url"        : "/blog/hello-world/",
-		  "date"       : "2014-08-08 15:39:55 -0400",
-		  "shortdate"  : "August 08, 2014"
-		} ,
-	
-		{
-		  "title"      : "Sample Post",
-		  "category"   : "",
-      "tags"       : "sample-post",
-		  "url"        : "/articles/sample-post/",
-		  "date"       : "2011-03-10 00:00:00 -0500",
-		  "shortdate"  : "March 10, 2011"
+		  "url"        : "/blog/jekyll-transition/",
+		  "date"       : "2015-01-08 22:39:55 -0500",
+		  "shortdate"  : "January 08, 2015"
 		} 
 	
 ]
