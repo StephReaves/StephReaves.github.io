@@ -12,5 +12,6 @@ In short, I love learning - I'm a geekette. I'm passionate about being my "best 
 ## My Projects:
 
 * <a href="https://memoryfinder.herokuapp.com/" target="_blank">Dreams</a> 
+* <a href="http://stephreaves.github.io/theremouse/spotify.html" target="_blank">Theremouse</a> 
 * <a href="http://www.rezolveapp.com/" target="_blank">Rezolve</a> 
 * <a href="https://github.com/ospreys-2014/LiveHub" target="_blank">LiveHub</a> 
