@@ -13,12 +13,12 @@ date: 2015-01-08T23:39:55-04:00
 ## Jekyll is Awesome
 
 So Jekyll is a "thing". I don't know what took me so long to transition over from my old blog.
-However, it's a lifesaver in terms of increasing efficiency around creating a blog post, writing a blog post, posting, and updating posts. Everything is streamlined... One I was over the initial confusion of how to set everything up, it's been smooth sailing. Basically, GitHub makes posting static contant seamless with GitHub pages. Jekyll, an open source project static site generator, takes this to a new level by giving you all the tools needed to blogs, personal, projects, or organizational sites. 
+However, it's a lifesaver in terms of increasing efficiency around creating a blog post, writing a blog post, posting, and updating posts. Everything is streamlined... Once I was over the initial confusion of how to set everything up, it's been smooth sailing. Basically, GitHub makes posting static contant seamless with GitHub pages. Jekyll, an open source project static site generator, takes this to a new level by giving you all the tools needed to blogs, personal, projects, or organizational sites. 
 
 ## Rundown of some cool things that are easy with Jekyll.
 
 * Launching a server to test your blog
-* Add a new post is as simple as
+* Adding a new post is as simple as one, two, three
 * Jekyll also offers support for code snippets
 * Jekyll is really well documented
 
